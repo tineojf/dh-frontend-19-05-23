@@ -80,3 +80,48 @@ main > div > button {
   color: #fff;
   border: none;
 }
+
+section.productos > div.banner {
+  margin-top: 20px;
+  text-align: center;
+}
+section.productos > div.banner > h2 {
+  font-size: 2.5rem;
+  color: #000;
+  margin: 8px 0;
+}
+
+section.productos > div.banner > p.p_2 {
+  font-size: 0.9375rem;
+  color: #666;
+  margin-top: 20px;
+}
+
+section.productos > div.productos__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 6vh 22vw;
+}
+
+section.productos > div.productos__lista > div.productos__lista_ejm {
+  background-color: #fafaf5;
+}
+
+section.productos
+  > div.productos__lista
+  > div.productos__lista_ejm
+  > p:nth-child(2) {
+  color: #3c2313;
+  text-align: center;
+  font-size: 0.9375rem;
+  font-weight: bold;
+}
+section.productos
+  > div.productos__lista
+  > div.productos__lista_ejm
+  > p:nth-child(3) {
+  color: #f0a83e;
+  text-align: center;
+  font-size: 0.9375rem;
+}
